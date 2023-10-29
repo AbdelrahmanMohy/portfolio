@@ -1,0 +1,144 @@
+/* Font Definition */
+
+@font-face {
+    font-family: 'AcciaSansLight';
+    src: url('fonts/AcciaSans-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AcciaSansRegular';
+    src: url('fonts/AcciaSans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'AcciaSansBold';
+    src: url('fonts/AcciaSans-SemiBold.woff2') format('woff2');
+}
+/* body  */
+body{
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #00000090,#0f070b); /* Add a gradient background to the button */
+
+
+}
+/* header  */
+header{
+    width: 100%;
+    background-color: #000000;
+}
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 0 10%;
+}
+.otherSideHeader{
+    display: flex;
+    gap: 3rem;
+}
+.otherSideHeader p{
+    font-family: 'AcciaSansLight';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.myName p{
+    font-family: 'AcciaSansRegular';
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+.mohey{
+    color: #ffd20a;
+}
+.hireButton{
+    font-family: 'AcciaSansLight';
+    color: #fff;
+    font-size: 1rem;
+    width: 7rem;
+    height: 3rem;
+    background-color: transparent;
+    border-color: #ffd900;
+    border-radius: 0.9rem; /* Add rounded corners to the button */
+    box-shadow: -2px 3px 0 #ffd501; /* Add a box shadow to the box */
+}
+.seeCV{
+    font-family: 'AcciaSansLight';
+    color: #000000;
+    font-size: 1rem;
+    width: 7rem;
+    font-weight: 700;
+
+    height: 3rem;
+    background: linear-gradient(to right, #eeff00,#ffe815); /* Add a gradient background to the button */
+    border-color: #ffd900;
+    border-radius: 0.9rem; /* Add rounded corners to the button */
+    box-shadow: -2px 3px 0 #0c002c; /* Add a box shadow to the box */
+}
+/* main Page  */
+.mainPage{
+    width: 100%;
+    
+}
+.container{
+    display: flex;   
+    overflow: hidden;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 7rem 5rem 5rem 7rem;
+    flex-wrap: wrap;
+}
+.imageME{
+    width: 26rem;
+    height: 26rem;
+}
+
+.rightSide{
+    position: relative;
+    padding:  8 px;
+}
+.rightSide::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    background: linear-gradient(to right, #f9ff4a,#eeff00); /* Add a gradient background to the button */
+    z-index: -1;
+}
+.buttons{
+    display: flex;   
+    justify-content: center;
+    gap: 5rem;
+}
+.position{
+    font-family: 'AcciaSansRegular';
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+.firstFont{
+    font-family: 'AcciaSansRegular';
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+
+    
+}
+.secondFont{
+    font-family: 'AcciaSansRegular';
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.helloDiv{
+    display: flex;   
+    justify-content: center; 
+}
+.helloWorld{
+    font-family: 'AcciaSansLight';
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
